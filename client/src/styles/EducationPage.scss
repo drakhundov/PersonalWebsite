@@ -1,0 +1,16 @@
+$font-family: 'Courier New';
+
+.edu-list {
+    font-family: $font-family;
+
+    .edu-entry {
+        font-family: inherit;
+        border: 2px solid black;
+        border-radius: 2px;
+        margin: 10px;
+        >* {
+            font-family: inherit;
+            margin-left: 10px;
+        }
+    }
+}

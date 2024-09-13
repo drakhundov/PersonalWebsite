@@ -1,0 +1,22 @@
+.vscode/
+
+# env
+init.sh
+
+# client
+client/node_modules
+client/package.json
+client/package-lock.json
+client/.env
+client/npm-debug.log
+
+# server
+server/env
+
+*/__pycache__/
+*.log
+*.tmp
+*.swp
+*.bak
+*.pyc
+*.DS_Store

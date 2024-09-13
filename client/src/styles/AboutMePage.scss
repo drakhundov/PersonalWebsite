@@ -1,0 +1,17 @@
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+
+    .profile-name {
+        font-family: Inter;
+        font-weight: semibold;
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .profile-img {
+        margin-top: 5vh;
+        width: 15vw;
+    }
+}
